@@ -1,6 +1,6 @@
-import apikey from "./apikey.js";
+import apikey from "./config.js";
 console.log("Welcome to project 3");
-// let apiKey = "3d5cc0539a7c4b7c9fda704c85225656";
+
 
 let newsAcc = document.getElementById('newsAcc');
 //making a xhr request 
