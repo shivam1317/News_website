@@ -1,5 +1,4 @@
 console.log("Welcome to project 3");
-// 3d5cc0539a7c4b7c9fda704c85225656
 let newsAcc = document.getElementById('newsAcc');
 //making a xhr request 
 const key = config.API_KEY;
