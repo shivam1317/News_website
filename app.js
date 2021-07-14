@@ -1,10 +1,10 @@
-import apikey from "./config.js";
 console.log("Welcome to project 3");
-
+// 3d5cc0539a7c4b7c9fda704c85225656
 let newsAcc = document.getElementById('newsAcc');
 //making a xhr request 
+const key = config.API_KEY;
 const xhr = new XMLHttpRequest();
-xhr.open('GET',`https://newsapi.org/v2/top-headlines?country=in&apiKey=${apikey}`,true);
+xhr.open('GET',`https://newsapi.org/v2/top-headlines?country=in&apiKey=${key}`,true);
 
 xhr.onload = function(){
     if(this.status === 200){
